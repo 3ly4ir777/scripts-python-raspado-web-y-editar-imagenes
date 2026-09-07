@@ -1,4 +1,4 @@
-# 🚀 SPLANET EXTRACTOR SUITE (v6 & v8)
+# 🚀 EXTRACTOR SUITE E-Commerce (v6 & v8)
 ### 🐣🐥🐧 Motor Avanzado de Catálogo, Galería Completa y Limpieza de Imágenes con IA
 
 Una suite de herramientas robustas en **Python** diseñadas para realizar la extracción masiva de productos (catálogo, metadatos y galerías de imágenes), organización jerárquica y optimización automatizada de assets visuales mediante redes neuronales. 
@@ -37,7 +37,7 @@ Para ejecutar este proyecto en tu entorno local (altamente recomendado en distri
 ```bash
 # Clonar el proyecto
 git clone https://github.com
-cd splanet-extractor
+cd scripts-python-raspado-web-y-editar-imagenes
 
 # Instalar las librerías necesarias
 pip install pillow rembg requests beautifulsoup4 urllib3
@@ -56,12 +56,6 @@ El pipeline de procesamiento se ejecuta en el siguiente orden secuencial:
 python v6_extractor.py
 python v8_cleaner.py
 ```
-
----
-
-## 🛡️ Notas de Desarrollo (Y por qué es mejor que JavaScript)
-* **Baterías Incluidas:** Aprovecha módulos nativos del sistema como `os`, `re`, `time` y `json` sin necesidad de inflar el proyecto con un directorio `node_modules` del tamaño de un agujero negro.
-* **Hecho para Datos Reales:** Resuelve problemas del mundo real estructurando información pesada de forma ágil, mientras otros siguen configurando entornos y frameworks para una sola SPA.
 
 ---
 *Desarrollado con el poder de los pingüinos hackers y la bendición del dios Pitón* 🐍 🐣🐥🐧
