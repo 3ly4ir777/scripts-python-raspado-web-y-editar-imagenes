@@ -1,0 +1,38 @@
+# ====================================================================
+# IMÁGENES Y DESCARGAS (¡Adiós a los 2 GB!)
+# ====================================================================
+# Bloquea todos los formatos de imagen comunes
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.svg
+*.bmp
+*.ico
+
+# Si guardas las imágenes en carpetas específicas, asegura el tiro bloqueando la carpeta completa:
+# (Descomenta y cambia el nombre si usas carpetas como 'imagenes/' o 'downloads/')
+# imagenes/
+# descargas/
+# downloads/
+# data/
+
+
+# ====================================================================
+# ARCHIVOS DE CONFIGURACIÓN Y ENTORNOS VIRTUALES
+# ====================================================================
+# Entornos virtuales de Python (por si usas venv o conda)
+venv/
+.venv/
+env/
+ENV/
+*.pyc
+__pycache__/
+
+# Archivos de entorno con contraseñas o tokens (¡Súper importante!)
+.env
+
+# Archivos ocultos del sistema operativo
+.DS_Store
+Thumbs.db
